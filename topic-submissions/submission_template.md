@@ -1,31 +1,33 @@
 #  Topic Submission
 
 ## Presenter
-- Name: [Your name]
-- Affiliation: [Your organization/team]
-- Role: [Your role]
+- Name: Alexander Pyattaev
+- Affiliation: Anza/Networking
+- Role: Senior Engineer, Networking
 
 ## Topic Details
 ### Summary
-_Brief description here_
+Networking newsreel:
+ * multihoming & port/socket binding in multi-interface world
+ * XDP support coming to agave
+ * Observability tools for validator network traffic
 
 ### Technical Overview
-- Current state/implementation
-- Relevant SIMDs or existing proposals
-- Related technical documentation
+- Multihoming is coming our way, it will allow a validator to efficiently use multiple network interfaces (e.g. connected to different ISPs) for redundancy and/or latency optimization. Along with obvious reliability benefits, multihoming brings interesting new configuration challenges as well.
+- Why and where are we switching to XDP and what it means for performance vs usability tradeoff in agave. 
+- Tooling to watch how validator is using the network bandwidth
 
 
 ## Supporting Materials
-- [Link to SIMD] (if applicable)
-- [Link to POC/implementation]
-- [Link to relevant research/analysis]
+- XDP PR: https://github.com/anza-xyz/agave/pull/5671/ 
+- Live capture tool https://github.com/alexpyattaev/agave/tree/wire_format_gossip
 
 ## Date's available (Calls are typically on the 3rd Friday of each month)
-1. May 16th
+1. May 16th 
 2. June 20th
 
 ## Time Required
-[Estimated presentation time: X minutes]
+30 min
 
 ## Additional Notes
-[Any other relevant information for the call organizers]
+
